@@ -1,0 +1,120 @@
+.bg {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 100vh;
+}
+
+/* .form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 60px -15px rgb(156, 156, 156);
+    position: absolute;
+    top: 7vh;
+  } */
+
+.form-container {
+  /* background: #5d13e7; */
+  /* background: linear-gradient(45deg, #3544dc, #ef33f2); */
+  background: linear-gradient(45deg, #53a2ff, #2a387b);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 20px 40px -20px #53a2ff;
+  position: absolute;
+  top: 3.5vh;
+  color: #e7e7e7;
+  width: 93%;
+  font-size: 20px;
+}
+
+.btn-submit {
+  /* background: #007ab3; */
+  background: #000000;
+
+  color: rgb(255, 255, 255);
+  /* border: none; */
+  height: 45px;
+  border: none;
+}
+
+.btn-submit:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+img {
+  width: 80px;
+  padding-top: 20px;
+  position: relative;
+  filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.541));
+}
+/*
+  .form-group {
+    width: 290px;
+  } */
+
+.a-divider {
+  text-align: center;
+  position: relative;
+  top: 495px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  line-height: 0;
+}
+
+.a-divider h5 {
+  line-height: 1;
+  font-size: 14px;
+  color: #767676;
+  font-weight: 500;
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: rgb(255, 255, 255);
+  padding: 0 8px 0 7px;
+}
+
+.a-divider::after {
+  content: "";
+  width: 100%;
+  background-color: transparent;
+  display: block;
+  height: 1px;
+  border-top: 2px solid #e7e7e7;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 1;
+}
+
+.btn-create-account {
+  text-align: center;
+  position: relative;
+  top: 485px;
+  padding-top: 1px;
+  margin-bottom: 14px;
+  height: 50%;
+  width: 102%;
+  background: #000000;
+  box-shadow: 0px 20px 20px -20px rgb(0, 0, 0);
+  border: none;
+  /* line-height: 0; */
+}
+
+.btn-create-account:hover {
+  border: #000000;
+  /* background: #53a2ff; */
+  box-shadow: 0px 20px 20px -20px #007bff;
+}
+
+/* .btn-sec {
+  box-shadow: 0px 20px 55px -20px rgb(192, 28, 28);
+} */
+
+/* .box .box2 {
+  background: #5d13e7;
+  padding: 2rem;
+  position: relative;
+  width: 70%;
+  box-shadow: 0 0 25px 10px black;
+} */
